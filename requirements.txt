@@ -1,0 +1,12 @@
+requests>=2.31.0
+python-dotenv>=1.0.0
+pandas>=2.0.0
+
+# Optional, for production deployment (scheduler.py works without it,
+# using only the standard library — install this if you prefer a
+# cron-style scheduling API instead):
+# schedule>=1.2.0
+
+# Recommended for running the test suite (tests are written with
+# stdlib unittest, so pytest is optional but gives nicer output):
+# pytest>=7.4.0
