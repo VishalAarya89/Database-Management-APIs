@@ -32,10 +32,10 @@ Manual weather tracking doesn't scale past a handful of cities, and one-off API 
                  └──────────┬───────────┘
              validators.py  │  monitor.py (threshold checks)
                              ▼
-                 ┌─────────────────────┐
+                 ┌───────────────────────┐
                  │  SQLite (database.py) │  cities / weather_data /
                  │  weather_data.db      │  alerts / pipeline_runs
-                 └──────────┬───────────┘
+                 └──────────┬────────────┘
               ┌─────────────┼─────────────┐
               ▼             ▼             ▼
         reporter.py   scripts/analysis   monitor.py
